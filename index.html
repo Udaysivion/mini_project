@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/main.css">
+    
+    <!-- <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.min.css"> -->
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <!-- <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script> -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- font awosome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!-- custom css files -->
+    <!-- <link rel="stylesheet" href="./src/customcss/home.css"> -->
+    <link rel="stylesheet" href="./src/customcss/home.css">
+
+    <title>Iot</title>
+
+</head>
+<body>
+    <div class="container-fluid p-0 m-0">
+
+      
+       <header class="main-header p-0 m-0 position-sticky top-0" style="z-index: 200; width: 100%;">
+        <nav class="navbar navbar-expand-lg bg-white">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <!-- <h2>SRI INDU</h2> -->
+              <img src="https://th.bing.com/th/id/OIP.NP5BPN-CSOJMIqL14SgTkAAAAA?w=306&h=70&c=7&r=0&o=5&dpr=1.2&pid=1.7" width="200" class="logo"/>
+            </a>
+            <button class="navbar-toggler btn btn-primary border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ms-auto zIdex-5">
+                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                <a class="nav-link" href="./src/html/syllabus.html">Syllabus</a>
+                <a class="nav-link" href="#iotClubContainer">IoT Club</a>
+                <a class="nav-link" href="./src/html/resources.html">Resources</a>
+                <a class="btn btn-primary text-light" href="./src/html/login.html" style="width: 80px;" role="button" aria-disabled="true">Login</a>
+                
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+<!-- carousel -->
+       <div class="container-fluid">
+       <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <!-- <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 4"></button> -->
+         
+        </div>
+        <div class="carousel-inner" id="carouselimage">
+         
+          <div class="carousel-item active" data-bs-interval="1000" >
+            <img src="./assets/1.jpg" class="d-block img-fluid" alt="..."  id="img1">
+          </div>
+          
+          <div class="carousel-item" data-bs-interval="1000" >
+            <img src="./assets/2.jpg" class="d-block img-fluid" alt="..." id="img2">
+          </div>
+          <div class="carousel-item" data-bs-interval="1000" >
+            <img src="./assets/3.jpg" class="d-block img-fluid" alt="..." id="img3">
+          </div>
+        </div>
+        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button> -->
+      </div>
+    </div>
+
+
+        <!-- About Us -->
+        <div class="container mt-4">
+
+          <div class="text-center p-3 " id="aboutus-container">
+            <h2 id="aboutusHeading">About Us</h2>
+          </div>
+  
+          <div class="row content">
+            <div class="col-lg-6" style="text-align: justify;">
+              <p>
+                The Department of Internet of Things (IoT) at <b>Sri Indu College of Engineering & Technology</b> is at the forefront of innovation, preparing students for the ever-evolving world of connected devices and intelligent systems. We offer a dynamic curriculum that blends theoretical knowledge with practical experience, equipping graduates with the skills to design, develop, and deploy cutting-edge IoT solutions. <br/><br/><br/>
+                Join us and become a part of the exciting world of IoT! We are committed to fostering a collaborative and engaging learning environment that equips you with the skills and knowledge to thrive in this rapidly growing field.
+              </p>
+              
+             
+            </div>
+            <div class="col-lg-6">
+              <ul style="list-style: none; text-align: justify;">
+
+                <li ><p><b>Sensor Technology and Data Acquisition:</b> Students gain expertise in various sensors, data collection techniques, and signal processing methods to extract valuable insights from the physical world.</p> </li>
+                <li ><p><b>Connectivity and Communication Protocols: </b>We delve into the world of wired and wireless communication protocols that enable seamless data exchange between devices in an IoT ecosystem.
+                  </p> </li>
+                 
+                <li ><p><b>IoT Application Development:</b> Our curriculum emphasizes building end-to-end IoT applications, including cloud integration, security considerations, and user interface design.</p></li>
+              </ul>
+              <!-- <p>
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <a href="#" class="btn-learn-more">Learn More</a> -->
+            </div>
+          </div>
+  
+        </div>
+
+<!-- News Feed and Syllabus cards -->
+<div class="container p-4" style="box-sizing: border-box;" id="newsFeed">
+  <!-- tabs for news -->
+    <div class="row row-sm-1 p-2 mt-4">
+      <div class="col-lg-4 overflow-y-scroll p-0 col-sm-12" style="height: 400px; scrollbar-width: none;"  >
+        <ul class="nav nav-pills nav-fill position-sticky top-0 p-0 bg-primary"  id="pills-tab" role="tablist">
+            
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-updates-tab" data-bs-toggle="pill" data-bs-target="#pills-updates" type="button" role="tab" aria-controls="pills-updates" aria-selected="true" style="color: white;">Updates</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-events-tab" data-bs-toggle="pill" data-bs-target="#pills-events" type="button" role="tab" aria-controls="pills-events" aria-selected="true" style="color: white;">Events</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-activities-tab" data-bs-toggle="pill" data-bs-target="#pills-activities" type="button" role="tab" aria-controls="pills-activities" aria-selected="false" style="color: white;">Activities</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent" style="background: rgb(33, 37, 41, 0.03);">
+          <div class="tab-pane fade show active" id="pills-updates" role="tabpanel" aria-labelledby="pills-updates-tab" tabindex="0" >
+
+            <div class="p-3 pt-0 rounded box-shadow" id="updates" >
+
+           <!-- updates -->
+  
+           
+          </div>
+          
+        </div>
+          <div class="tab-pane fade" id="pills-events" role="tabpanel" aria-labelledby="pills-events-tab" tabindex="0">
+            <div class="p-3 pt-0 rounded box-shadow" id="events">
+              <!-- events -->
+    
+             
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="pills-activities" role="tabpanel" aria-labelledby="pills-activities-tab" tabindex="0">
+          <div class="p-3 pt-0 rounded box-shadow" id="activities">
+           <!-- activities -->
+            
+        </div>
+      </div>
+        </div>
+</div>
+      <!-- cards for display time table and syllubus -->
+     
+      <div class="col-lg-7 offset-lg-1 offset-sm-0 h-100" id="academiCards" >
+        <div class="row row-cols-lg-3 row-cols-sm-1 mt-2 h-100">
+
+          <div class="col-lg-4 col-sm-12 mt-0 mar">
+            <a href="./src/html/syllabus.html">
+            <div class="card eachAcademicCard" id="navCards1">
+              <i class="bi bi-person-fill"></i>
+              <div class="card-img-overlay">
+                <h5 class="card-title">Syllabus</h5>
+              </div>
+            
+          </div>
+        </a>
+          </div>
+          
+          <div class="col-lg-4 col-sm-12 mt-0 mar">
+            <a href="./src/html/timetable.html"> 
+            <div class="card eachAcademicCard" id="navCards2">
+              <i class="bi bi-calendar-minus-fill"></i>
+           
+            <div class="card-img-overlay">
+              <h5 class="card-title">Time Table</h5>
+            </div>
+          </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-12 mt-0 mar">
+          <a href="./src/html/labmanuals.html">
+          <div class="card eachAcademicCard" id="navCards3">
+            <i class="bi bi-book-half"></i>
+         
+          <div class="card-img-overlay">
+           
+            <h5 class="card-title">Lab Manuals</h5>
+          </div>
+        </div>
+      </a>
+        </div>
+        <div class="col-lg-4 col-sm-12 mt-0 mar">
+          <a href="#iotClubContainer">
+          <div class="card eachAcademicCard" id="navCards4">
+            <i class="bi bi-youtube"></i>
+         
+          <div class="card-img-overlay">
+            <h5 class="card-title">Activities</h5>
+          </div>
+        </div>
+        </a>
+        </div>
+       <div class="col-lg-4 col-sm-12 mt-0 mar">
+        <a href="./src/html/deptofIot.html">
+        <div class="card eachAcademicCard" id="navCards5">
+          <i class="bi bi-unity"></i>
+       
+        <div class="card-img-overlay">
+          <h5 class="card-title">Dept of IoT</h5>
+        </div>
+      </div>
+      </a>
+       </div>
+        <div class="col-lg-4 col-sm-12 mt-0 mar">
+          <a href="./src/html/academiccalender.html">
+          <div class="card eachAcademicCard" id="navCards6">
+            <i class="bi bi-life-preserver"></i>
+         
+          <div class="card-img-overlay">
+            <h5 class="card-title">Academic Calender</h5>
+          </div>
+        </div>
+        </a>
+        </div>
+        
+        </div>
+      
+      </div>
+
+  
+    </div>
+
+  </div>
+
+    
+       <!--Iot Club Section  -->
+<div class="container-fluid p-lg-5" id="iotClubContainer">
+
+  <div class="container" id="iotContainerIntro">
+    <h2 id="iotClubHeading">IoT Club</h2>
+    <p id="iotClubIntro" style="text-align: justify;">The Department of IoT here at Sri Indu College of Engineering & Technology is thrilled to introduce you to a field that's rapidly transforming our world. Imagine a future where everyday objects – from your coffee maker to your city's traffic lights – are seamlessly connected, collecting and sharing data to create a smarter, more efficient environment. That's the power of IoT!</p>
+  </div>
+  <div class="container mt-4">
+    <!-- Tabs -->
+    <ul class="nav nav-pills" role="tablist">
+   
+      <li class="navitem" role="presentation">
+        <button class="nav-link active" id="pills-projects-tab"  data-bs-toggle="pill" data-bs-target="#projects" type="button" role="tab" aria-controls="pills-projects" aria-selected="true">
+          Projects
+        </button>
+      </li>
+      <li class="navitem" role="presentation">
+        <button class="nav-link" id="pills-iotEvents-tab"  data-bs-toggle="pill" data-bs-target="#iotEvents" type="button" role="tab" aria-controls="pills-iotEvents" aria-selected="true">
+          Events
+        </button>
+      
+      </li>
+    </ul>
+    <!-- Tab content -->
+    <div class="tab-content"  >
+      <!-- tab-1 -->
+      
+<div class="tab-pane fade show active" id="projects" role="tabpanel" aria-labelledby="pills-projects-tab" tabindex="0">
+  <div class="container iotContainerCards" id="iot-club-projects">
+   
+    <!--  7-->
+    <!-- <div class="card" style="width: 18rem;">
+      <img src="./assets/1.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body border border-white  rounded-bottom-2 ">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <button type="button" class="btn btn-light">
+        More About Project
+        </button>
+      </div>
+    </div> -->
+    
+  </div>
+      </div>
+      <!-- tab-2 -->
+
+<div class="tab-pane fade" id="iotEvents" role="tabpanel" aria-labelledby="pills-iotEvents-tab" tabindex="0">
+  <div class="container iotContainerCards" id="iot-club-events">
+    
+    <!--  -->
+    <div class="card">
+      <img src="./assets/eventsimg/webfoliowars.jpeg" class="card-img-top" alt="...">
+      
+      <div class="card-body border border-white  rounded-bottom-2 ">
+       
+        <p class="card-text">Craft stunning portfolio websites within a limited timeframe using only college lab resources.</p>
+        <a role="button" class="btn btn-light" href="https://linktr.ee/WebFoliowars">
+        More About Event
+        </a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./assets/eventsimg/datagrapple.jpeg" class="card-img-top" alt="...">
+      
+      <div class="card-body border border-white  rounded-bottom-2 ">
+       
+        <p class="card-text">Dive into the world of data with the Data Visualization Extravaganza contest.</p>
+        <a role="button" class="btn btn-light" href="https://linktr.ee/datagrapple">
+          More About Event
+          </a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./assets/eventsimg/crackingrealtimeriddle.jpeg" class="card-img-top" alt="...">
+      
+      <div class="card-body border border-white  rounded-bottom-2 ">
+       
+        <p class="card-text">Dive into real-time problems and your proposed solutions through captivating PPT presentations.</p>
+        <a role="button" class="btn btn-light" href="https://linktr.ee/crackingtherealtimeriddle">
+          More About Event
+          </a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./assets/eventsimg/logicloom.jpeg" class="card-img-top" alt="...">
+      
+      <div class="card-body border border-white  rounded-bottom-2 ">
+       
+        <p class="card-text">Join the HackerRank Code Challenge to test your coding with a series of problems.</p>
+        <a role="button" class="btn btn-light" href="https://linktr.ee/logicloom">
+          More About Event
+          </a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./assets/eventsimg/mockmeets.jpeg" class="card-img-top" alt="...">
+      
+      <div class="card-body border border-white  rounded-bottom-2 ">
+       
+        <p class="card-text">Prepare with common interview questions and coding practice to sharpen skills.</p>
+        <a role="button" class="btn btn-light" href="https://linktr.ee/mockmeetsmastery">
+          More About Event
+          </a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./assets/eventsimg/mindmaze.jpeg" class="card-img-top" alt="...">
+      
+      <div class="card-body border border-white  rounded-bottom-2 ">
+       
+        <p class="card-text">Get ready for a laughter-filled extravaganza with our Hilarious Kahoot Quiz Bonanza! </p>
+        <a role="button" class="btn btn-light" href="https://linktr.ee/mindmaze1">
+          More About Event
+          </a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./assets/eventsimg/cupquest.jpeg" class="card-img-top" alt="...">
+      
+      <div class="card-body border border-white  rounded-bottom-2 ">
+       
+        <p class="card-text">Match hues with intuition: Color Cup Challenge awaits your keen eye.</p>
+        <a role="button" class="btn btn-light" href="https://linktr.ee/cupquest">
+          More About Event
+          </a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./assets/eventsimg/spottheclue.jpeg" class="card-img-top" alt="...">
+      
+      <div class="card-body border border-white  rounded-bottom-2 ">
+       
+        <p class="card-text">Prepare to put your powers of observation to the test in our thrilling Spot the Difference Challenge!</p>
+        <a role="button" class="btn btn-light" href="https://linktr.ee/spottheclue">
+          More About Event
+          </a>
+      </div>
+    </div>
+
+    <!--  -->
+    </div>
+    </div>
+  </div>
+</div>
+  
+</div>
+
+  <!-- Contact Section -->
+  <div class="container-fluid bg-#ffffff p-lg-5 " id="contactContainer">
+        <h2 id="contactHeading">Contact</h2>
+        <p id="contactIntro">We'd love to hear from you! Use the form below to contact us.</p>
+
+        <!-- kjbkj -->
+<div class="container mt-5">
+  <div class="row">
+    <!-- colum 1 -->
+    <div class="col-lg-6 col-sm-12">
+      <div class="row text-center">
+      <div class="col-lg-6 col-sm-12 contactCards" ><div class="card">
+        <i class="bi bi-geo-alt fs-1"></i>
+        <div>
+          <h3>Address</h3>
+          <p>
+            Facing Main Road, Sheriguda,
+            Ibrahimpatan, R.R Dist.</p>
+          <!-- <p>My college</p> -->
+        </div>
+      </div></div>
+      <div class="col-lg-6 col-sm-12 contactCards" ><div class="card">
+        <i class="bi bi-telephone fs-1"></i>
+        <div>
+          <h3>Call Us</h3>
+          <p>+123218944849</p>
+          <p>+47885599665</p>
+        </div>
+      </div></div>
+      <div class="col-lg-6 col-sm-12 contactCards" ><div class="card">
+        <i class="bi bi-envelope fs-1"></i>
+        <div>
+          <h3>Email Us</h3>
+          <p>sriindu@gmail.com</p>
+          <p>deptofsriinduIot@gmail.com</p>
+        </div>
+      </div></div>
+      <div class="col-lg-6 col-sm-12 contactCards" ><div class="card">
+        <i class="bi bi-clock fs-1"></i>
+        <div>
+          <h3>Open Hours</h3>
+          <p>Monday - Friday</p>
+          <p>9:00AM - 4:00PM</p>
+        </div>
+
+      </div></div>
+  </div>
+    </div>
+    <!-- colum 2 -->
+    <div class="col-lg-6 col-sm-12" >
+      <div class="card formCard bg-rgb(33, 37, 41,0.03)">
+
+      <form class="contactForm p-4 pt-5" >
+        <div class="row gy-4">
+
+          <div class="col-lg-6 col-sm-12">
+            <input type="text" name="name" class="form-control" placeholder="Your Name" required="" >
+          </div>
+
+          <div class="col-lg-6 col-sm-12">
+            <input type="email" class="form-control" name="email" placeholder="Your Email" required="" >
+          </div>
+
+          <div class="col-lg-12 col-sm-12">
+            <input type="text" class="form-control" name="subject" placeholder="Subject" required="" >
+          </div>
+
+          <div class="col-lg-12 col-sm-12">
+            <textarea class="form-control border border-1 rounded-0" name="message" rows="6" placeholder="Message" required=""></textarea>
+          </div>
+
+          <div class="col-lg-12 col-sm-12 text-center">
+            <!-- <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your message has been sent. Thank you!</div> -->
+
+            <button type="submit" class="p-2 border rounded-1 btn btn-primary text-light" >Send Message</button>
+          </div>
+
+        </div>
+      </form>
+    </div>
+  </div>
+    
+  
+  </div>
+</div>
+  </div>
+
+  <!-- footer join our iot-club -->
+  <div class="footer-joinclub" >
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="row col-lg-6 text-center">
+          <h2 class="fs-4">Join Our Iot Club</h2>
+          <p class="fs-6">We welcome everyone! come and join our club to share your knowledge</p>
+          <form action="" class="footer-form">
+            <input type="email" class="w-75 border border-0 p-3 rounded-5" name="" id="" placeholder="Enter Your Email">
+            <input type="submit" class="border border-0 btn btn-primary rounded-5 text-light" style="width: 40%;" value="Join">
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer top -->
+  <div class="footer-top">
+    <div class="container text-black-50">
+      <div id="footer-bottom">
+
+
+        <div class="col-lg-6 col-md-6 footer-links" >
+          <h4 style="color: #212529;">Useful Links</h4>
+          <ul id="fb1">
+            <li></i><a class="nav-link active" aria-current="page" href="/index.html" >Home</a></li>
+            <li></i><a class="nav-link" href="./src/html/syllabus.html">Syllabus</a></li>
+            <li></i><a class="nav-link" href="#iotClubContainer">IoT Club</a></li>
+            <li></i><a class="nav-link" href="./src/html/resources.html">Resources</a></li>
+            <li></i><a class="nav-link" href="#contactHeading">Contact Us</a></li>
+
+          </ul>
+        </div>
+
+
+        <div class="col-lg-6 col-md-6 footer-links" >
+          <h4 style="color: #212529;">Our Social Networks</h4>
+          
+          <div class="social-links mt-1 mb-2">
+            <a href="#" class="twitter"  ><i class="bi bi-twitter"></i></a>
+            <a href="#" class="facebook" style="margin-left: 15px;"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram" style="margin-left: 15px;"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="linkedin" style="margin-left: 15px;"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- Footer bottom -->
+  <div class="container-fluid footer-bottom d-flex justify-content-center bg-primary p-3 text-light" id="copyright">
+    <!-- <div class="copyright">
+      © Copyright <strong><span>Automac Technologies</span></strong>.All Rights Reserved
+    </div> -->
+    <div class="credits">
+     Designed & Developed by Automac Technologies & Iot Team
+      <!-- <a href="#"></a> -->
+    </div>
+  </div>
+  <script src="/src/js/index.js"></script>
+</body>
+</html>
